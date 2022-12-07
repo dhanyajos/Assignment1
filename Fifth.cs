@@ -18,9 +18,13 @@ namespace SampleApp
             {
                 Console.WriteLine("Positive number");
             }
-            else
+            else if(n<0)
             {
                 Console.WriteLine("Negative number");
+            }
+            else
+            {
+                Console.WriteLine("neither positive nor negative");
             }
             Console.ReadKey();
         }
